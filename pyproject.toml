@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "100daysofcode-with-python-course"
+version = "0.1.0"
+description = ""
+authors = ["Dipam <dipam44@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+notebook = "6.5.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
